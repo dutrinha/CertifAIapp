@@ -6,7 +6,7 @@ import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Provider as PaperProvider, MD3LightTheme } from 'react-native-paper';
-import { AuthProvider, useAuth } from './src/context/AuthContext'; //
+import { AuthProvider, useAuth } from './AuthContext'; //
 
 // Import Pages
 // ...
