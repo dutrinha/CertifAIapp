@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, SafeAreaView, ScrollView, TouchableOpacity, Platform, Alert, ActivityIndicator } from 'react-native'; // Adicionado ActivityIndicator
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { ArrowLeft, BookOpen, ClipboardList, ListChecks, FileText as Briefcase, Zap } from 'lucide-react-native'; // Ícones
-import { supabase } from '../context/AuthContext'; // Importa Supabase
+import { supabase } from './AuthContext'; // Importa Supabase
 
 // Paleta de cores padrão (da HomePage)
 const cores = {

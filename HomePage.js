@@ -4,7 +4,7 @@ import {
     View, Text, StyleSheet, TouchableOpacity, SafeAreaView, Platform
 } from 'react-native';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from './AuthContext';
 import { Settings, Award, ShieldCheck, Star, Swords, ChevronRight, Flame } from 'lucide-react-native'; 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Svg, Circle } from 'react-native-svg';

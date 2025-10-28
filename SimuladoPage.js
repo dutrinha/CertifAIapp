@@ -17,7 +17,7 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 import { createClient } from '@supabase/supabase-js';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { X, Check, Sparkles, Send } from 'lucide-react-native';
-import { supabase, useAuth } from '../context/AuthContext';
+import { supabase, useAuth } from './AuthContext';
 
 
 // Cores

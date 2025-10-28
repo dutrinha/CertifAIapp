@@ -15,7 +15,7 @@ import {
 } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { ArrowLeft, CheckCircle, XCircle, BookOpen } from 'lucide-react-native';
-import { supabase } from '../context/AuthContext'; //
+import { supabase } from './AuthContext'; //
 
 // Cores
 const cores = {

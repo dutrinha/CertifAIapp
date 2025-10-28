@@ -13,7 +13,7 @@ import {
   ScrollView,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { supabase, useAuth } from '../context/AuthContext';
+import { supabase, useAuth } from './AuthContext';
 import { ArrowLeft, LogOut, User, Target } from 'lucide-react-native';
 
 // =======================================================

@@ -3,8 +3,8 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 // --- NOVO: IMPORTAR AS TELAS QUE VAMOS CRIAR NOS PRÓXIMOS PASSOS ---
-import WelcomeScreen from '../Screens/WelcomeScreen';
-import OnboardingFlowScreen from '../Screens/OnboardingFlowScreen';
+import WelcomeScreen from './WelcomeScreen';
+import OnboardingFlowScreen from './OnboardingFlowScreen';
 
 const OnboardingStack = createNativeStackNavigator();
 

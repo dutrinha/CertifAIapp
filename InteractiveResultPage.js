@@ -15,7 +15,7 @@ import {
   FlatList // <-- Importado
 } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
-import { supabase } from '../context/AuthContext';
+import { supabase } from './AuthContext';
 import { Sparkles, Home, ChevronRight, Send, X } from 'lucide-react-native';
 
 // Paleta de cores (baseada nas suas outras páginas)

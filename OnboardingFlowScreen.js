@@ -10,7 +10,7 @@ import {
   ScrollView,
   Alert,
 } from 'react-native';
-import { supabase } from '../context/AuthContext';
+import { supabase } from './AuthContext';
 import { Sparkles, Target, Award, ShieldCheck, Star, Minus, Plus, X, Check } from 'lucide-react-native';
 
 // Cores

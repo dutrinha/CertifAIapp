@@ -13,7 +13,7 @@ import {
   KeyboardAvoidingView,
   ScrollView,
 } from 'react-native';
-import { supabase } from '../context/AuthContext';
+import { supabase } from './AuthContext';
 import { Mail, Hash } from 'lucide-react-native'; // <-- Ícones para email e código
 
 // Cores

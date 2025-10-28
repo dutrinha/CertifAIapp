@@ -15,7 +15,7 @@ import {
 } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { ArrowLeft, X, Check, Sparkles } from 'lucide-react-native'; // Ícones necessários
-import { supabase } from '../context/AuthContext'; // Importar Supabase
+import { supabase } from './AuthContext'; // Importar Supabase
 
 // Paleta de cores da SimuladoPage (ajustada)
 const cores = {

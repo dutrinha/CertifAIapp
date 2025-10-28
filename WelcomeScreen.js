@@ -12,7 +12,7 @@ import {
   KeyboardAvoidingView,
   Platform,
 } from 'react-native';
-import { supabase } from '../context/AuthContext'; // Importa o Supabase
+import { supabase } from './AuthContext'; // Importa o Supabase
 import { User } from 'lucide-react-native';
 
 // Cores (baseadas na sua LoginScreen)
