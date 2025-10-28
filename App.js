@@ -9,22 +9,25 @@ import { Provider as PaperProvider, MD3LightTheme } from 'react-native-paper';
 import { AuthProvider, useAuth } from './src/context/AuthContext'; //
 
 // Import Pages
-import HomePage from 'HomePage'; //
-import TrilhasPage from 'TrilhasPage'; //
-import CpaTopicosPage from 'CpaTopicosPage'; //
-import CprorTopicosPage from 'CprorTopicosPage'; //
-import CproiTopicosPage from 'CproiTopicosPage'; //
-import SimuladoPage from 'pages/SimuladoPage'; //
-import ResultadoPage from 'pages/ResultadoPage'; //
-import CertificationHubPage from 'pages/CertificationHubPage'; //
-import StudyCasePage from 'StudyCasePage'; //
-import InteractiveQuestionPage from 'InteractiveQuestionPage'; //
-import InteractiveResultPage from 'InteractiveResultPage'; //
+// ...
+// Import Pages
+import HomePage from './HomePage'; //
+import TrilhasPage from './TrilhasPage'; //
+import CpaTopicosPage from './CpaTopicosPage'; //
+import CprorTopicosPage from './CprorTopicosPage'; //
+import CproiTopicosPage from './CproiTopicosPage'; //
+import SimuladoPage from './SimuladoPage'; //
+import ResultadoPage from './ResultadoPage'; //
+import CertificationHubPage from './CertificationHubPage'; //
+import StudyCasePage from './StudyCasePage'; //
+import InteractiveQuestionPage from './InteractiveQuestionPage'; //
+import InteractiveResultPage from './InteractiveResultPage'; //
 
 // Import Screens
-import LoginScreen from 'LoginScreen'; //
-import SettingsScreen from 'SettingsScreen'; //
-import OnboardingNavigator from 'OnboardingNavigator'; //
+import LoginScreen from './LoginScreen'; //
+import SettingsScreen from './SettingsScreen'; //
+import OnboardingNavigator from './OnboardingNavigator'; //
+// ...
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
